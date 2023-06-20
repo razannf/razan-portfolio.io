@@ -1,0 +1,691 @@
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Razan Nassif | Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://thecardslab.com/front/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://thecardslab.com/assets/css/vcard3.css">
+    <link rel="stylesheet" href="https://thecardslab.com/assets/css/custom-vcard.css">
+    <link rel="stylesheet" href="https://thecardslab.com/assets/css/slider/css/slick.css">
+    <link rel="stylesheet" href="https://thecardslab.com/assets/css/slider/css/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://thecardslab.com/assets/css/third-party.css">
+    <link rel="stylesheet" type="text/css" href="https://thecardslab.com/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://thecardslab.com/css/plugins.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://thecardslab.com/uploads/settings/29/tcl.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+         
+    </head>
+<body>
+    
+<div class="container">
+
+    <div class="vcard-three main-content w-100 mx-auto overflow-hidden collapse show allSection">
+        
+        <div class="vcard-three__banner w-100 position-relative">
+            <img src="images/logo.png" class="banner-image" alt="banner">
+
+
+            <div class="d-flex justify-content-end position-absolute top-0 end-0 me-3">
+                
+            </div>
+        </div>
+        
+        <div class="vcard-three__profile position-relative">
+            <div class="avatar position-absolute top-0 start-50 translate-middle">
+                <img src="images/razan-pic.jpg" alt="profile-img" class="rounded-circle">
+            </div>
+        </div>
+        
+        
+        <div class="vcard-three__profile-details">
+            <h4 class="vcard-three-heading text-center pt-8">Razan Nassif</h4>
+            <span class="profile-designation text-center d-block text-white">Computer Science | Web Developer</span>
+           
+            <div class="d-sm-flex justify-content-center my-5 pb-5">
+
+
+           
+
+            
+            
+
+                <div class="container1">
+                    <div class="main_box" id="share-main">
+                        <input type="checkbox" id="share_button">
+                        <label for="share_button">
+                            <span class="sharebtn">Share<i class="far fa-share-square"></i></span>
+                        </label> 
+                        <div class="sm_list">
+                            <a href="https://www.facebook.com/login/" class="facebook" id="sharebtn">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/accounts/login/" class="instagram" id="sharebtn">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/feed/" class="linkedin" id="sharebtn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://web.whatsapp.com/" class="whatsapp" id="sharebtn">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            <style>
+    
+                        .container1 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 8vh;
+                    }
+
+                    .main_box {
+                        text-align: center;
+                    }
+
+                    .sm_list {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    /* Add any additional CSS styles as needed */
+
+                                    
+                    #share-main {
+                        position: absolute;
+                        text-align: center;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        display: grid;
+                                           
+                    }
+                                                        
+                    #share_button {
+                        display: none;
+                    }
+                    #sharebtn {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                    }
+                                
+                    .sharebtn,
+                    i {
+                        position: absolute;
+                        display: inline-block;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        border-radius: 15px;
+                        padding:10px 15px;
+                    }
+                                
+                    #share-p {
+                        margin-right: 5px; /* Added margin to create space */
+                        margin-left: 5px;
+                    }
+                                                        
+                    .sharebtn {
+                        background-color: #f2df79;
+                        border: none;
+                        color: black;
+                        cursor: pointer;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 16px;
+                        transform: translate(-50%, -50%);
+                        z-index: 3;
+                        width: 100px; /* Adjusted width */
+                       
+
+
+                    }
+
+                                    
+                    .sm_list {
+                        width: 4em;
+                        height: 4em;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%); 
+                    }
+                                    
+                    .sm_list a {
+                        width: 2em;
+                        height: 2em;
+                        border-radius: 50%;
+                        text-decoration: none;
+                        color: #fff;
+                        transition: all 0.3s;
+                        font-size: 1.5em;
+                    }
+
+                    #share_button:checked ~ .sm_list a:nth-child(1) {
+                        background-color: #3b5998;
+                        transition-delay: 0.2s;
+                        transform: translateX(-4em);
+                    }
+                                    
+                    #share_button:checked ~ .sm_list a:nth-child(2) {
+                        background-color: #dd2553;
+                        transition-delay: 0.2s;
+                        transform: translateX(4em);
+                    }
+                   #share_button:checked ~ .sm_list a:nth-child(3){
+                   background-color: #000f94;
+                   transition-delay: 0.3s;
+                   transform: translateX(7em);
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(4){
+                   background-color: green;
+                   transition-delay: 0.3s;
+                   transform: translateX(-7em);
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(5){
+                   background-color: rgb(10, 63, 0);
+                   transition-delay: 0.4s;
+                   transform: translateX(18em);
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(6){
+                   background: linear-gradient(70deg,blue,green,red,yellow);
+                   transition-delay: 0.4s;
+                   transform: translateX(-18em);
+                   }
+                   
+                   /* Hovering Effects */
+                   #share_button:checked ~ .sm_list a:nth-child(1):hover{
+                   background-color: #ffffff;
+                   color: #3B5998;
+                   transition-delay: 0.2s;
+                   transform: translateX(-4em);
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(2):hover{
+                   color: #dd2553;
+                   background-color: #fff;
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(3):hover{
+                   color: #000f94;
+                   background-color: #fff;
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(4):hover{
+                   color: #1077ec;
+                   background-color: #fff;
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(5):hover{
+                   color: rgb(10, 63, 0);
+                   background-color: #fff;
+                   }
+                   
+                   #share_button:checked ~ .sm_list a:nth-child(6):hover{
+                   color: black;
+                   background-image: linear-gradient(90deg,white,grey);
+                   }
+                   
+                   span:visited{
+                   background-color: #000f94;
+                   }
+               
+               </style>
+
+<script>
+    // Selecting the html class and  
+    // convert it to an object
+    
+    const sharebtn = 
+        document.querySelector('.sharebtn')
+    
+    // Creating a bool variable for changing
+    // the image of share button 
+    var bool = 0
+    
+    // Adding an event listener
+    sharebtn.addEventListener('click', () => {
+    
+        // As we clicked the mouse over
+        // the share button the bool value.
+        //  get flipped and then working of
+        // if-else loop get starts
+        bool = !bool
+        
+        if (bool == 0) {
+    sharebtn.innerHTML =
+        'Share<i class="far fa-share-square"></i> ';
+} else {
+    sharebtn.innerHTML =
+        '<i class="fas fa-times"></i>';
+}
+
+    })
+    
+</script>
+                  
+        </div>
+
+        <span class="text-center d-block text-white pb-5">Full Stack Developer - Frontend &amp; Backend</span> 
+        
+        <h4 class="vcard-three-heading text-center mt-5">
+            Connect
+            </h4>
+        <div class="container2">
+             <div class="vcard-three__event mt-2 position-relative">
+
+                <div class="rows">
+                        <div class="col-sm-4">
+                            <div class="card event-card p-2 h-100 border-0 flex-sm-row flex-column align-items-center">
+                            <a href="https://api.whatsapp.com/send?phone=9613836951" class="event-icon d-flex justify-content-center align-items-center">
+                                <svg class="svg-inline--fa fa-whatsapp fa-3x" style="color: #F2DF79;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg><!-- <i class="fab fa-whatsapp fa-3x" style="color: #F2DF79"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=9613836951">Whatsapp</a>
+                            <a href="mailto:nassifrazan470@gmail.com" class="event-icon d-flex justify-content-center align-items-center">
+                                <svg class="svg-inline--fa fa-envelope fa-3x" style="color: #F2DF79;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"></path></svg><!-- <i class="fa fa-envelope fa-3x" style="color: #F2DF79"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <a href="mailto:nassifrazan470@gmail.com">Email</a>
+                            </div>
+                        </div>
+                            
+                      
+                        
+                                                                         
+                        <div class="col-sm-4 ">
+                            <div class="card event-card p-2 h-100 border-0 flex-sm-row flex-column align-items-center">
+                            <a href="https://www.linkedin.com/in/razan-nassif-40032023b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9YuI%2BvUmQr%2B5vuqcXuWSrg%3D%3D" class="event-icon d-flex justify-content-center align-items-center">
+                                <svg class="svg-inline--fa fa-linkedin fa-3x" style="color: #F2DF79;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-linkedin fa-3x" style="color: #F2DF79"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <a href="https://www.linkedin.com/in/razan-nassif-40032023b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9YuI%2BvUmQr%2B5vuqcXuWSrg%3D%3D" >Linkedin</a>
+                            <div class="col-sm-4">
+                                <div class="card event-card p-2 h-100 border-0 flex-sm-row flex-column align-items-center">
+                                <a href="tel:96103836951" class="event-icon d-flex justify-content-center align-items-center">
+                                    <svg class="svg-inline--fa fa-square-phone fa-3x" style="color: #F2DF79 ;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="square-phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M384 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h320c35.35 0 64-28.65 64-64V96C448 60.65 419.3 32 384 32zM351.6 321.5l-11.62 50.39c-1.633 7.125-7.9 12.11-15.24 12.11c-126.1 0-228.7-102.6-228.7-228.8c0-7.328 4.984-13.59 12.11-15.22l50.38-11.63c7.344-1.703 14.88 2.109 17.93 9.062l23.27 54.28c2.719 6.391 .8828 13.83-4.492 18.22L168.3 232c16.99 34.61 45.14 62.75 79.77 79.75l22.02-26.91c4.344-5.391 11.85-7.25 18.24-4.484l54.24 23.25C349.5 306.6 353.3 314.2 351.6 321.5z"></path></svg><!-- <i class="fa fa-phone-square fa-3x" style="color: #F2DF79"></i> Font Awesome fontawesome.com -->
+                                </a>
+                                <a href="tel:961003842184" class="event-icon d-flex justify-content-center align-items-center ml-3">Call</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                                
+                                                            
+                </div>
+        </div>
+    </div>
+        <style>
+              .container2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                   
+
+                    .rows {
+                        text-align: center;
+                    }
+
+                    .col-sm-4{
+                        display: flex;
+                        justify-content: center;
+                    }
+        </style> 
+        
+
+                   <div class="vcard-three__service py-4 position-relative px-sm-3">
+                    <h4 class="vcard-three-heading heading-line position-relative text-center">About</h4>
+
+                <img src="https://thecardslab.com/assets/img/vcard3/vcard3-shape2.png" alt="shape" class="position-absolute start-0 shape-two">
+                <img src="https://thecardslab.com/assets/img/vcard3/vcard3-shape3.png" alt="shape" class="position-absolute end-0 bottom-0 shape-three">
+                <div class="container">
+                   
+                    <div class="row mt-3 g-3 justify-content-center">
+                            <div class="col-sm-6 col-12">
+                                <div class="card service-card p-3 h-100 d-flex align-items-center">
+                                    <div class="service-image d-flex justify-content-center align-items-center">
+                                        <img src="images/speed icon.jpg" alt="service" class="rounded-circle">
+                                     </div>
+                                    <div class="service-details mt-3">
+                                        <h4 class="service-title text-center">Fast</h4>
+                                        <p class="service-paragraph mb-0 text-center">
+                                            My topmost concern is achieving speedy loading times and smooth user interaction without any delays.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card service-card p-3 h-100 d-flex align-items-center">
+                                    <div class="service-image d-flex justify-content-center align-items-center">
+                                        <img src="images/laptop icon.jpg" alt="service" class="rounded-circle">
+                                    </div>
+                                    <div class="service-details mt-3">
+                                        <h4 class="service-title text-center">Responsive</h4>
+                                        <p class="service-paragraph mb-0 text-center">
+                                            My designs will be compatible with any screen size, whether it's a large or small device (mobile, laptop, ipad, etc..).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card service-card p-3 h-100 d-flex align-items-center">
+                                    <div class="service-image d-flex justify-content-center align-items-center">
+                                        <img src="images/lamp icon.jpg" alt="service" class="rounded-circle">
+                                    </div>
+                                    <div class="service-details mt-3">
+                                        <h4 class="service-title text-center">Intuitive</h4>
+                                        <p class="service-paragraph mb-0 text-center">
+                                            I have a significant inclination towards a user-friendly and intuitive user experience/user interface.
+                                        </p>
+                                                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card service-card p-3 h-100 d-flex align-items-center">
+                                    <div class="service-image d-flex justify-content-center align-items-center">
+                                        <img src="images/rocket icon.jpg" alt="service" class="rounded-circle">
+                                    </div>
+                                    <div class="service-details mt-3">
+                                        <h4 class="service-title text-center">Dynamic</h4>
+                                        <p class="service-paragraph mb-0 text-center">
+                                            
+                                        I enjoy creating dynamic web pages that are not limited to static content.
+                                        </p>
+                                                                            </div>
+                                </div>
+                            </div>
+                                               
+                    </div>
+                </div>
+            </div><br>
+        
+            <div class="swiper" >
+                <h4 class="vcard-three-heading heading-line position-relative text-center">Recent Project</h4><br>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/4.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/5.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/6.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/7.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/8.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/9.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/10.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img id="prj1" src="images/11.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/12.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/13.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/14.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/15.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/16.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/17.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/18.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/19.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/20.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/21.png" alt="">
+                    </div><div class="swiper-slide">
+                        <img id="prj1" src="images/22.png" alt="">
+                    </div>
+                  
+                    
+             
+                </div>
+        
+                <div class="swiper-pagination"></div>
+        
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div><br>
+
+            
+        
+            <script>
+                const swiper = new Swiper(".swiper", {
+                    navigation:{
+                        prevEl: ".swiper-button-prev",
+                        nextEl: ".swiper-button-next"
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true
+                    },
+                    effect: "coverflow"
+                });
+            </script>
+
+<div class="swiper" >
+    <h4 class="vcard-three-heading heading-line position-relative text-center">Skills</h4><br>
+
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <p id="skills">Frontend languages<br>HTML<br>CSS</p>
+          
+        </div>
+  
+        <div class="swiper-slide">
+            <p id="skills">JavaScript</p>
+        </div>
+
+        <div class="swiper-slide">
+            <p id="skills">Backend languages<br>PHP<br>SQL</p>
+          
+        </div>
+        <div class="swiper-slide">
+            <p id="skills">Database Managment Systems<br>MySQL<br>SQLite</p>
+        </div>
+        <div class="swiper-slide">
+            <p id="soft-skills">Soft Skills : <br>1-Communication skills<br>2-Time management<br>3-Organization Skills <br>4-Teamwork abilities<br>5-Leadership abilities<br>6-Attentive to details<br>7-Creative mindset</p>
+        </div>
+      
+        
+ 
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div><br>
+
+
+
+<script>
+    const swiper2 = new Swiper(".swiper", {
+        navigation:{
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next"
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        effect: "coverflow"
+    });
+</script>
+
+
+
+
+
+
+  
+<div class="vcard__qr-code">
+    <div class="px-4 pt-5 pb-4">
+      <h4 class="vcard-three-heading text-center mt-5">QR Code</h4>
+      <div class="qr-code d-block mx-auto position-relative px-5 pb-3">
+        <div class="qr-code-image d-flex justify-content-center">
+          <!-- QR code image -->
+          <img src="images/frame.png" alt="" version="1.1" width="130" height="130" viewBox="0 0 130 130" id="qr-code-img">
+          
+        </div>
+      </div>
+      
+    </div>
+    <!-- <div class="justify-content-center scan it">
+    <span class="scan">Scan it</span>
+    </div> -->
+    <div style="background-color: #F2DF79; color: #000000; text-align: center; width:150px; height: 40px; align-items: center; justify-content: center; display: flex; margin: auto; margin-top: var(--bs-gutter-y);
+    padding-left: calc(var(--bs-gutter-x)*.5); padding-right: calc(var(--bs-gutter-x)*.5); border-radius: 13px;">
+        <span>Scan it</span>
+    </div>
+   
+  </div>
+  
+        
+                    <div class="vcard-three__timing py-4 position-relative px-sm-3">
+                <div class="container">
+                    <h4 class="vcard-three-heading heading-line position-relative text-center">Business Hours</h4>
+                    <div class="row mt-5 justify-content-center">
+                        <div class="col-sm-8 col-12 time-section">
+                            
+                                <div style="background-color: #F2DF79; color: #000000;" class="d-flex justify-content-center time-zone">
+                                    <span class="me-2">MON > Sun</span>
+                                    <span>02:00 PM - 08:00 PM</span>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+
+        
+                            <div class="vcard-three__contact py-4 position-relative">
+                <img src="https://thecardslab.com/assets/img/vcard3/vcard3-shape3.png" alt="shape" class="position-absolute start-0 bottom-0">
+                <div class="container">
+                    <h4 class="vcard-three-heading heading-line position-relative text-center">Inquiries</h4>
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <form id="enquiryForm">
+                                <input type="hidden" name="_token" value="j2yNf0C4LVQc7BTFXMr1kSS9AbhmJjAiLcz3P2LT">                                <div class="contact-form px-sm-5">
+                                    <div id="enquiryError" class="alert alert-danger d-none"></div>
+                                    <div class="mb-3">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email Address">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="tel" name="phone" class="form-control" id="phone" placeholder="Enter Phone">
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" name="message" placeholder="Type a message here..." id="message" rows="5"></textarea>
+                                    </div>
+                                    <button style="background-color: #F2DF79; color: #000000;" type="submit" class="contact-btn mt-4 d-block mx-auto">Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+    
+
+
+<script src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript" src="https://thecardslab.com/assets/js/front-third-party.js"></script>
+<script type="text/javascript" src="https://thecardslab.com/front/js/bootstrap.bundle.min.js"></script>
+<script src="https://thecardslab.com/assets/js/slider/js/slick.min.js" type="text/javascript"></script>
+
+
+
+
+
+<script>
+    const svg = document.getElementsByTagName('svg')[0];
+    const { x, y, width, height } = svg.viewBox.baseVal;
+    const blob = new Blob([svg.outerHTML], { type: 'image/svg+xml' });
+    const url = URL.createObjectURL(blob);
+    const image = document.createElement('img');
+    image.src = url;
+    image.addEventListener('load', () => {
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const context = canvas.getContext('2d');
+        context.drawImage(image, x, y, width, height);
+        const link = document.getElementById('qr-code-btn');
+        link.href = canvas.toDataURL();
+        URL.revokeObjectURL(url);
+    });
+</script>
+<script type="text/javascript">
+    const Ziggy = {"url":"https:\/\/thecardslab.com","port":null,"defaults":{},"routes":{"debugbar.openhandler":{"url":"_debugbar\/open","methods":["GET","HEAD"]},"debugbar.clockwork":{"uri":"_debugbar\/clockwork\/{id}","methods":["GET","HEAD"]},"debugbar.assets.css":{"uri":"_debugbar\/assets\/stylesheets","methods":["GET","HEAD"]},"debugbar.assets.js":{"uri":"_debugbar\/assets\/javascript","methods":["GET","HEAD"]},"debugbar.cache.delete":{"uri":"_debugbar\/cache\/{key}\/{tags?}","methods":["DELETE"]},"ignition.healthCheck":{"uri":"_ignition\/health-check","methods":["GET","HEAD"]},"ignition.executeSolution":{"uri":"_ignition\/execute-solution","methods":["POST"]},"ignition.shareReport":{"uri":"_ignition\/share-report","methods":["POST"]},"ignition.scripts":{"uri":"_ignition\/scripts\/{script}","methods":["GET","HEAD"]},"ignition.styles":{"uri":"_ignition\/styles\/{style}","methods":["GET","HEAD"]},"livewire.message":{"uri":"livewire\/message\/{name}","methods":["POST"]},"livewire.upload-file":{"uri":"livewire\/upload-file","methods":["POST"]},"livewire.preview-file":{"uri":"livewire\/preview-file\/{filename}","methods":["GET","HEAD"]},"stancl.tenancy.asset":{"uri":"tenancy\/assets\/{path?}","methods":["GET","HEAD"],"wheres":{"path":"(.*)"}},"home":{"uri":"\/","methods":["GET","HEAD"]},"social.login":{"uri":"login\/{provider}","methods":["GET","HEAD"]},"profile.setting":{"uri":"profile\/edit","methods":["GET","HEAD"]},"mode.theme":{"uri":"mode","methods":["GET","HEAD"]},"update.profile.setting":{"uri":"profile\/update","methods":["PUT"]},"user.changePassword":{"uri":"change-user-password","methods":["PUT"]},"user.changeLanguage":{"uri":"change-user-language","methods":["PUT"]},"impersonate.leave":{"uri":"impersonate-leave","methods":["GET","HEAD"]},"payment-success":{"uri":"payment-success","methods":["GET","HEAD"]},"failed-payment":{"uri":"failed-payment","methods":["GET","HEAD"]},"dashboard.vcard.chart":{"uri":"admin\/dashboard-chart","methods":["GET","HEAD"]},"subscription.index":{"uri":"admin\/manage-subscription","methods":["GET","HEAD"]},"choose.payment.type":{"uri":"admin\/choose-payment-type\/{planId}\/{context?}\/{fromScreen?}","methods":["GET","HEAD"]},"purchase-subscription":{"uri":"admin\/purchase-subscription","methods":["POST"]},"subscription.upgrade":{"uri":"admin\/manage-subscription\/upgrade","methods":["GET","HEAD"]},"subscription.plan-zero":{"uri":"admin\/subscription-purchase\/{plan}\/plan-zero","methods":["POST"],"bindings":{"plan":"id"}},"subscription.manual":{"uri":"admin\/subscription-purchase\/{plan}\/manual","methods":["POST"]},"stripe.purchase":{"uri":"admin\/stripe\/subscription-purchase","methods":["POST"]},"paypal.init":{"uri":"admin\/paypal-onboard","methods":["GET","HEAD"]},"paypal.success":{"uri":"admin\/paypal-payment-success","methods":["GET","HEAD"]},"paypal.failed":{"uri":"admin\/paypal-payment-failed","methods":["GET","HEAD"]},"razorpay.init":{"uri":"admin\/razorpay-onboard","methods":["GET","HEAD"]},"razorpay.success":{"uri":"admin\/razorpay-payment-success","methods":["POST"]},"razorpay.failed":{"uri":"admin\/razorpay-payment-failed","methods":["POST"]},"admin.dashboard":{"uri":"admin\/dashboard","methods":["GET","HEAD"]},"vcard.analytics":{"uri":"admin\/vcard\/{vcard}\/analytics","methods":["GET","HEAD"],"bindings":{"vcard":"id"}},"enquiries.index":{"uri":"admin\/enquiries","methods":["GET","HEAD"]},"appointments.index":{"uri":"admin\/appointments","methods":["GET","HEAD"]},"appointments.calendar":{"uri":"admin\/appointments-calendar","methods":["GET","HEAD"]},"vcard.status":{"uri":"admin\/vcard\/status\/{vcard}","methods":["GET","HEAD"],"bindings":{"vcard":"id"}},"vcard.service.index":{"uri":"admin\/vcard\/{vcard}\/services","methods":["GET","HEAD"]},"vcard.service.store":{"uri":"admin\/vcard\/services","methods":["POST"]},"vcard.service.edit":{"uri":"admin\/vcard\/services\/{vcardService}","methods":["GET","HEAD"],"bindings":{"vcardService":"id"}},"vcard.service.update":{"uri":"admin\/vcard\/services\/{vcardService}\/update","methods":["POST"],"bindings":{"vcardService":"id"}},"vcard.service.destroy":{"uri":"admin\/vcard\/services\/{vcardService}","methods":["DELETE"],"bindings":{"vcardService":"id"}},"vcard.blogs.index":{"uri":"admin\/vcard\/{vcard}\/blogs","methods":["GET","HEAD"]},"vcard.blog.store":{"uri":"admin\/vcard\/blogs","methods":["POST"]},"vcard.blog.edit":{"uri":"admin\/vcard\/blogs\/{vcardBlog}","methods":["GET","HEAD"],"bindings":{"vcardBlog":"id"}},"vcard.blog.update":{"uri":"admin\/vcard\/blogs\/{vcardBlog}\/update","methods":["POST"],"bindings":{"vcardBlog":"id"}},"vcard.blog.destroy":{"uri":"admin\/vcard\/blogs\/{vcardBlog}","methods":["DELETE"],"bindings":{"vcardBlog":"id"}},"gallery.index":{"uri":"admin\/vcard\/{vcard}\/galleries","methods":["GET","HEAD"]},"gallery.store":{"uri":"admin\/vcard\/galleries","methods":["POST"]},"gallery.edit":{"uri":"admin\/vcard\/galleries\/{gallery}","methods":["GET","HEAD"],"bindings":{"gallery":"id"}},"gallery.update":{"uri":"admin\/vcard\/galleries\/{gallery}\/update","methods":["POST"],"bindings":{"gallery":"id"}},"gallery.destroy":{"uri":"admin\/vcard\/galleries\/{gallery}","methods":["DELETE"],"bindings":{"gallery":"id"}},"vcard.products.index":{"uri":"admin\/vcard\/{vcard}\/products","methods":["GET","HEAD"]},"vcard.products.store":{"uri":"admin\/vcard\/products","methods":["POST"]},"vcard.products.edit":{"uri":"admin\/vcard\/products\/{products}","methods":["GET","HEAD"]},"vcard.products.update":{"uri":"admin\/vcard\/products\/{products}\/update","methods":["POST"]},"vcard.products.destroy":{"uri":"admin\/vcard\/products\/{products}","methods":["DELETE"]},"testimonial.index":{"uri":"admin\/vcard\/{vcard}\/testimonials","methods":["GET","HEAD"]},"testimonial.store":{"uri":"admin\/vcard\/testimonials","methods":["POST"]},"testimonial.edit":{"uri":"admin\/vcard\/testimonials\/{testimonial}","methods":["GET","HEAD"],"bindings":{"testimonial":"id"}},"testimonial.update":{"uri":"admin\/vcard\/testimonials\/{testimonial}\/update","methods":["POST"],"bindings":{"testimonial":"id"}},"testimonial.destroy":{"uri":"admin\/vcard\/testimonials\/{testimonial}","methods":["DELETE"],"bindings":{"testimonial":"id"}},"enquiry.index":{"uri":"admin\/vcards\/{vcard}\/enquiry","methods":["GET","HEAD"]},"get.slot":{"uri":"admin\/getSlot","methods":["GET","HEAD"]},"user.setting.index":{"uri":"admin\/user-settings","methods":["GET","HEAD"]},"user.setting.update":{"uri":"admin\/user-setting","methods":["POST"]},"dashboard.plan-chart":{"uri":"sadmin\/dashboard-plan-chart","methods":["POST"]},"dashboard.income-chart":{"uri":"sadmin\/dashboard-income-chart","methods":["GET","HEAD"]},"subscription.cash":{"uri":"sadmin\/planSubscriptions","methods":["GET","HEAD"]},"subscription.status":{"uri":"sadmin\/planSubscription\/{id}","methods":["GET","HEAD"]},"subscription.user.plan":{"uri":"sadmin\/subscribedPlans","methods":["GET","HEAD"]},"subscription.user.plan.edit":{"uri":"sadmin\/subscribedPlan\/{id}\/edit","methods":["GET","HEAD"]},"subscription.user.plan.update":{"uri":"sadmin\/subscribedPlan\/{id}\/update","methods":["GET","HEAD"]},"sadmin.dashboard":{"uri":"sadmin\/dashboard","methods":["GET","HEAD"]},"users.index":{"uri":"sadmin\/users","methods":["GET","HEAD"]},"users.create":{"uri":"sadmin\/users\/create","methods":["GET","HEAD"]},"users.store":{"uri":"sadmin\/users","methods":["POST"]},"users.show":{"uri":"sadmin\/users\/{user}","methods":["GET","HEAD"],"bindings":{"user":"id"}},"users.edit":{"uri":"sadmin\/users\/{user}\/edit","methods":["GET","HEAD"],"bindings":{"user":"id"}},"users.update":{"uri":"sadmin\/users\/{user}","methods":["PUT","PATCH"],"bindings":{"user":"id"}},"users.destroy":{"uri":"sadmin\/users\/{user}","methods":["DELETE"],"bindings":{"user":"id"}},"frontTestimonials.index":{"uri":"sadmin\/frontTestimonials","methods":["GET","HEAD"]},"frontTestimonials.create":{"uri":"sadmin\/frontTestimonials\/create","methods":["GET","HEAD"]},"frontTestimonials.store":{"uri":"sadmin\/frontTestimonials","methods":["POST"]},"frontTestimonials.show":{"uri":"sadmin\/frontTestimonials\/{frontTestimonial}","methods":["GET","HEAD"]},"frontTestimonials.edit":{"uri":"sadmin\/frontTestimonials\/{frontTestimonial}\/edit","methods":["GET","HEAD"],"bindings":{"frontTestimonial":"id"}},"frontTestimonials.update":{"uri":"sadmin\/frontTestimonials\/{frontTestimonial}","methods":["PUT","PATCH"]},"frontTestimonials.destroy":{"uri":"sadmin\/frontTestimonials\/{frontTestimonial}","methods":["DELETE"],"bindings":{"frontTestimonial":"id"}},"frontTestimonial.updateData":{"uri":"sadmin\/frontTestimonials\/{id}\/update","methods":["POST"]},"users.email-verified":{"uri":"sadmin\/users\/email-verified\/{user}","methods":["GET","HEAD"],"bindings":{"user":"id"}},"users.status":{"uri":"sadmin\/users\/update-status\/{user}","methods":["GET","HEAD"],"bindings":{"user":"id"}},"impersonate":{"uri":"sadmin\/impersonate\/{user}","methods":["GET","HEAD"],"bindings":{"user":"id"}},"sadmin.vcards.index":{"uri":"sadmin\/vcards","methods":["GET","HEAD"]},"sadmin.templates.index":{"uri":"sadmin\/templates","methods":["GET","HEAD"]},"sadmin.vcard.analytics":{"uri":"sadmin\/vcard\/{vcard}\/analytics","methods":["GET","HEAD"],"bindings":{"vcard":"id"}},"countries.index":{"uri":"sadmin\/countries","methods":["GET","HEAD"]},"countries.create":{"uri":"sadmin\/countries\/create","methods":["GET","HEAD"]},"countries.store":{"uri":"sadmin\/countries","methods":["POST"]},"countries.show":{"uri":"sadmin\/countries\/{country}","methods":["GET","HEAD"]},"countries.edit":{"uri":"sadmin\/countries\/{country}\/edit","methods":["GET","HEAD"],"bindings":{"country":"id"}},"countries.update":{"uri":"sadmin\/countries\/{country}","methods":["PUT","PATCH"],"bindings":{"country":"id"}},"countries.destroy":{"uri":"sadmin\/countries\/{country}","methods":["DELETE"],"bindings":{"country":"id"}},"states.index":{"uri":"sadmin\/states","methods":["GET","HEAD"]},"states.create":{"uri":"sadmin\/states\/create","methods":["GET","HEAD"]},"states.store":{"uri":"sadmin\/states","methods":["POST"]},"states.show":{"uri":"sadmin\/states\/{state}","methods":["GET","HEAD"]},"states.edit":{"uri":"sadmin\/states\/{state}\/edit","methods":["GET","HEAD"],"bindings":{"state":"id"}},"states.update":{"uri":"sadmin\/states\/{state}","methods":["PUT","PATCH"],"bindings":{"state":"id"}},"states.destroy":{"uri":"sadmin\/states\/{state}","methods":["DELETE"],"bindings":{"state":"id"}},"cities.index":{"uri":"sadmin\/cities","methods":["GET","HEAD"]},"cities.create":{"uri":"sadmin\/cities\/create","methods":["GET","HEAD"]},"cities.store":{"uri":"sadmin\/cities","methods":["POST"]},"cities.show":{"uri":"sadmin\/cities\/{city}","methods":["GET","HEAD"]},"cities.edit":{"uri":"sadmin\/cities\/{city}\/edit","methods":["GET","HEAD"],"bindings":{"city":"id"}},"cities.update":{"uri":"sadmin\/cities\/{city}","methods":["PUT","PATCH"],"bindings":{"city":"id"}},"cities.destroy":{"uri":"sadmin\/cities\/{city}","methods":["DELETE"],"bindings":{"city":"id"}},"plans.index":{"uri":"sadmin\/plans","methods":["GET","HEAD"]},"plans.create":{"uri":"sadmin\/plans\/create","methods":["GET","HEAD"]},"plans.store":{"uri":"sadmin\/plans","methods":["POST"]},"plans.show":{"uri":"sadmin\/plans\/{plan}","methods":["GET","HEAD"]},"plans.edit":{"uri":"sadmin\/plans\/{plan}\/edit","methods":["GET","HEAD"],"bindings":{"plan":"id"}},"plans.update":{"uri":"sadmin\/plans\/{plan}","methods":["PUT","PATCH"]},"plans.destroy":{"uri":"sadmin\/plans\/{plan}","methods":["DELETE"],"bindings":{"plan":"id"}},"plan.status":{"uri":"sadmin\/plans\/status\/{plan}","methods":["GET","HEAD"],"bindings":{"plan":"id"}},"make.plan.default":{"uri":"sadmin\/subscription-plans\/{user}\/make-plan-as-default","methods":["POST"]},"currencies.index":{"uri":"sadmin\/currencies","methods":["GET","HEAD"]},"features.index":{"uri":"sadmin\/features","methods":["GET","HEAD"]},"features.create":{"uri":"sadmin\/features\/create","methods":["GET","HEAD"]},"features.store":{"uri":"sadmin\/features","methods":["POST"]},"features.show":{"uri":"sadmin\/features\/{feature}","methods":["GET","HEAD"]},"features.edit":{"uri":"sadmin\/features\/{feature}\/edit","methods":["GET","HEAD"],"bindings":{"feature":"id"}},"features.update":{"uri":"sadmin\/features\/{feature}","methods":["PUT","PATCH"]},"features.destroy":{"uri":"sadmin\/features\/{feature}","methods":["DELETE"]},"aboutUs.index":{"uri":"sadmin\/about-us","methods":["GET","HEAD"]},"aboutUs.store":{"uri":"sadmin\/about-us","methods":["POST"]},"contact.contactus":{"uri":"sadmin\/contactUs","methods":["GET","HEAD"]},"usersData.dashboard":{"uri":"sadmin\/dashboard-users","methods":["GET","HEAD"]},"setting.front.cms":{"uri":"sadmin\/front-cms","methods":["GET","HEAD"]},"setting.front.cms.update":{"uri":"sadmin\/front-cms","methods":["POST"]},"email.sub.index":{"uri":"sadmin\/email-subscriptions","methods":["GET","HEAD"]},"email.sub.destroy":{"uri":"sadmin\/email-sub\/{emailSubscription}","methods":["DELETE"],"bindings":{"emailSubscription":"id"}},"languages.index":{"uri":"sadmin\/languages","methods":["GET","HEAD"]},"languages.create":{"uri":"sadmin\/languages\/create","methods":["GET","HEAD"]},"languages.store":{"uri":"sadmin\/languages","methods":["POST"]},"languages.show":{"uri":"sadmin\/languages\/{language}","methods":["GET","HEAD"],"bindings":{"language":"id"}},"languages.edit":{"uri":"sadmin\/languages\/{language}\/edit","methods":["GET","HEAD"],"bindings":{"language":"id"}},"languages.update":{"uri":"sadmin\/languages\/{language}","methods":["PUT","PATCH"],"bindings":{"language":"id"}},"languages.destroy":{"uri":"sadmin\/languages\/{language}","methods":["DELETE"],"bindings":{"language":"id"}},"languages.translation":{"uri":"sadmin\/languages\/translation\/{language}","methods":["GET","HEAD"],"bindings":{"language":"id"}},"languages.translation.update":{"uri":"sadmin\/languages\/translation\/{language}\/update","methods":["POST"],"bindings":{"language":"id"}},"import.services":{"uri":"admin\/import\/services","methods":["POST"]},"import.vcard":{"uri":"admin\/import\/vcard","methods":["POST"]},"vcards.index":{"uri":"admin\/vcards","methods":["GET","HEAD"]},"vcards.create":{"uri":"admin\/vcards\/create","methods":["GET","HEAD"]},"vcards.store":{"uri":"admin\/vcards","methods":["POST"]},"vcards.show":{"uri":"admin\/vcards\/{vcard}","methods":["GET","HEAD"]},"vcards.edit":{"uri":"admin\/vcards\/{vcard}\/edit","methods":["GET","HEAD"],"bindings":{"vcard":"id"}},"vcards.update":{"uri":"admin\/vcards\/{vcard}","methods":["PUT","PATCH"],"bindings":{"vcard":"id"}},"vcards.destroy":{"uri":"admin\/vcards\/{vcard}","methods":["DELETE"],"bindings":{"vcard":"id"}},"setting.index":{"uri":"sadmin\/settings","methods":["GET","HEAD"]},"setting.update":{"uri":"sadmin\/settings","methods":["POST"]},"setting.TermsConditions.update":{"uri":"sadmin\/setting-credential","methods":["POST"]},"email.sub":{"uri":"email-sub","methods":["POST"]},"vcard.defaultIndex":{"uri":"v","methods":["GET","HEAD"]},"vcard.show":{"uri":"v\/{alias}","methods":["GET","HEAD"]},"vcard.show-blog":{"uri":"v\/{alias}\/blog\/{id}","methods":["GET","HEAD"]},"vcard.show-privacy-policy":{"uri":"v\/{alias}\/privacy-policy\/{id}","methods":["GET","HEAD"]},"vcard.chart":{"uri":"vcard\/{alias}\/chart","methods":["GET","HEAD"]},"vcard.password":{"uri":"vcard\/{vcard}\/check-password","methods":["POST"],"bindings":{"vcard":"id"}},"enquiry.store":{"uri":"vcard\/{vcard}\/enquiry\/store","methods":["POST"],"bindings":{"vcard":"id"}},"appointment.store":{"uri":"vcard\/{vcard}\/appointment\/store","methods":["POST"]},"enquiry.show":{"uri":"enquiry\/{enquiry}","methods":["GET","HEAD"]},"LanguageChange":{"uri":"language\/{languageName}\/{alias}","methods":["GET","HEAD"]},"get.all.language":{"uri":"language","methods":["GET","HEAD"]},"user.stripe-payment":{"uri":"user-stripe-payment","methods":["POST"]},"user.payment-success":{"uri":"user-payment-success","methods":["GET","HEAD"]},"user.failed-payment":{"uri":"user-failed-payment","methods":["GET","HEAD"]},"user.paypal.init":{"uri":"user-paypal-onboard","methods":["GET","HEAD"]},"user.paypal.success":{"uri":"user-paypal-payment-success","methods":["GET","HEAD"]},"user.paypal.failed":{"uri":"user-paypal-payment-failed","methods":["GET","HEAD"]},"paypal.payout":{"uri":"paypal-payout","methods":["GET","HEAD"]},"terms.conditions":{"uri":"terms-conditions","methods":["GET","HEAD"]},"privacy.policy":{"uri":"privacy-policy","methods":["GET","HEAD"]},"register":{"uri":"register","methods":["GET","HEAD"]},"login":{"uri":"login","methods":["GET","HEAD"]},"password.request":{"uri":"forgot-password","methods":["GET","HEAD"]},"password.email":{"uri":"forgot-password","methods":["POST"]},"password.reset":{"uri":"reset-password\/{token}","methods":["GET","HEAD"]},"password.update":{"uri":"reset-password","methods":["POST"]},"verification.notice":{"uri":"verify-email","methods":["GET","HEAD"]},"verification.verify":{"uri":"verify-email\/{id}\/{hash}","methods":["GET","HEAD"]},"verification.send":{"uri":"email\/verification-notification","methods":["POST"]},"password.confirm":{"uri":"confirm-password","methods":["GET","HEAD"]},"logout":{"uri":"logout","methods":["POST"]},"dashboard":{"uri":"dashboard","methods":["GET","HEAD"]},"appointment-session-time":{"uri":"session-time\/{alias}","methods":["GET","HEAD"]},"contact.store":{"uri":"contact","methods":["POST"]},"vcard.download":{"uri":"vcards\/{vcard}","methods":["GET","HEAD"]},"appointmentsData.data":{"uri":"appointments-data","methods":["GET","HEAD"]}}};
+
+    !function(t,r){"object"==typeof exports&&"undefined"!=typeof module?module.exports=r():"function"==typeof define&&define.amd?define(r):(t||self).route=r()}(this,function(){function t(t,r){for(var n=0;n<r.length;n++){var e=r[n];e.enumerable=e.enumerable||!1,e.configurable=!0,"value"in e&&(e.writable=!0),Object.defineProperty(t,e.key,e)}}function r(r,n,e){return n&&t(r.prototype,n),e&&t(r,e),Object.defineProperty(r,"prototype",{writable:!1}),r}function n(){return n=Object.assign||function(t){for(var r=1;r<arguments.length;r++){var n=arguments[r];for(var e in n)Object.prototype.hasOwnProperty.call(n,e)&&(t[e]=n[e])}return t},n.apply(this,arguments)}function e(t){return e=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)},e(t)}function o(t,r){return o=Object.setPrototypeOf||function(t,r){return t.__proto__=r,t},o(t,r)}function i(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],function(){})),!0}catch(t){return!1}}function u(t,r,n){return u=i()?Reflect.construct:function(t,r,n){var e=[null];e.push.apply(e,r);var i=new(Function.bind.apply(t,e));return n&&o(i,n.prototype),i},u.apply(null,arguments)}function f(t){var r="function"==typeof Map?new Map:void 0;return f=function(t){if(null===t||-1===Function.toString.call(t).indexOf("[native code]"))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==r){if(r.has(t))return r.get(t);r.set(t,n)}function n(){return u(t,arguments,e(this).constructor)}return n.prototype=Object.create(t.prototype,{constructor:{value:n,enumerable:!1,writable:!0,configurable:!0}}),o(n,t)},f(t)}var a=String.prototype.replace,c=/%20/g,l="RFC3986",s={default:l,formatters:{RFC1738:function(t){return a.call(t,c,"+")},RFC3986:function(t){return String(t)}},RFC1738:"RFC1738",RFC3986:l},v=Object.prototype.hasOwnProperty,p=Array.isArray,y=function(){for(var t=[],r=0;r<256;++r)t.push("%"+((r<16?"0":"")+r.toString(16)).toUpperCase());return t}(),d=function(t,r){for(var n=r&&r.plainObjects?Object.create(null):{},e=0;e<t.length;++e)void 0!==t[e]&&(n[e]=t[e]);return n},b={arrayToObject:d,assign:function(t,r){return Object.keys(r).reduce(function(t,n){return t[n]=r[n],t},t)},combine:function(t,r){return[].concat(t,r)},compact:function(t){for(var r=[{obj:{o:t},prop:"o"}],n=[],e=0;e<r.length;++e)for(var o=r[e],i=o.obj[o.prop],u=Object.keys(i),f=0;f<u.length;++f){var a=u[f],c=i[a];"object"==typeof c&&null!==c&&-1===n.indexOf(c)&&(r.push({obj:i,prop:a}),n.push(c))}return function(t){for(;t.length>1;){var r=t.pop(),n=r.obj[r.prop];if(p(n)){for(var e=[],o=0;o<n.length;++o)void 0!==n[o]&&e.push(n[o]);r.obj[r.prop]=e}}}(r),t},decode:function(t,r,n){var e=t.replace(/\+/g," ");if("iso-8859-1"===n)return e.replace(/%[0-9a-f]{2}/gi,unescape);try{return decodeURIComponent(e)}catch(t){return e}},encode:function(t,r,n,e,o){if(0===t.length)return t;var i=t;if("symbol"==typeof t?i=Symbol.prototype.toString.call(t):"string"!=typeof t&&(i=String(t)),"iso-8859-1"===n)return escape(i).replace(/%u[0-9a-f]{4}/gi,function(t){return"%26%23"+parseInt(t.slice(2),16)+"%3B"});for(var u="",f=0;f<i.length;++f){var a=i.charCodeAt(f);45===a||46===a||95===a||126===a||a>=48&&a<=57||a>=65&&a<=90||a>=97&&a<=122||o===s.RFC1738&&(40===a||41===a)?u+=i.charAt(f):a<128?u+=y[a]:a<2048?u+=y[192|a>>6]+y[128|63&a]:a<55296||a>=57344?u+=y[224|a>>12]+y[128|a>>6&63]+y[128|63&a]:(a=65536+((1023&a)<<10|1023&i.charCodeAt(f+=1)),u+=y[240|a>>18]+y[128|a>>12&63]+y[128|a>>6&63]+y[128|63&a])}return u},isBuffer:function(t){return!(!t||"object"!=typeof t||!(t.constructor&&t.constructor.isBuffer&&t.constructor.isBuffer(t)))},isRegExp:function(t){return"[object RegExp]"===Object.prototype.toString.call(t)},maybeMap:function(t,r){if(p(t)){for(var n=[],e=0;e<t.length;e+=1)n.push(r(t[e]));return n}return r(t)},merge:function t(r,n,e){if(!n)return r;if("object"!=typeof n){if(p(r))r.push(n);else{if(!r||"object"!=typeof r)return[r,n];(e&&(e.plainObjects||e.allowPrototypes)||!v.call(Object.prototype,n))&&(r[n]=!0)}return r}if(!r||"object"!=typeof r)return[r].concat(n);var o=r;return p(r)&&!p(n)&&(o=d(r,e)),p(r)&&p(n)?(n.forEach(function(n,o){if(v.call(r,o)){var i=r[o];i&&"object"==typeof i&&n&&"object"==typeof n?r[o]=t(i,n,e):r.push(n)}else r[o]=n}),r):Object.keys(n).reduce(function(r,o){var i=n[o];return r[o]=v.call(r,o)?t(r[o],i,e):i,r},o)}},h=Object.prototype.hasOwnProperty,m={brackets:function(t){return t+"[]"},comma:"comma",indices:function(t,r){return t+"["+r+"]"},repeat:function(t){return t}},g=Array.isArray,j=String.prototype.split,w=Array.prototype.push,O=function(t,r){w.apply(t,g(r)?r:[r])},E=Date.prototype.toISOString,R=s.default,S={addQueryPrefix:!1,allowDots:!1,charset:"utf-8",charsetSentinel:!1,delimiter:"&",encode:!0,encoder:b.encode,encodeValuesOnly:!1,format:R,formatter:s.formatters[R],indices:!1,serializeDate:function(t){return E.call(t)},skipNulls:!1,strictNullHandling:!1},T=function t(r,n,e,o,i,u,f,a,c,l,s,v,p,y){var d,h=r;if("function"==typeof f?h=f(n,h):h instanceof Date?h=l(h):"comma"===e&&g(h)&&(h=b.maybeMap(h,function(t){return t instanceof Date?l(t):t})),null===h){if(o)return u&&!p?u(n,S.encoder,y,"key",s):n;h=""}if("string"==typeof(d=h)||"number"==typeof d||"boolean"==typeof d||"symbol"==typeof d||"bigint"==typeof d||b.isBuffer(h)){if(u){var m=p?n:u(n,S.encoder,y,"key",s);if("comma"===e&&p){for(var w=j.call(String(h),","),E="",R=0;R<w.length;++R)E+=(0===R?"":",")+v(u(w[R],S.encoder,y,"value",s));return[v(m)+"="+E]}return[v(m)+"="+v(u(h,S.encoder,y,"value",s))]}return[v(n)+"="+v(String(h))]}var T,k=[];if(void 0===h)return k;if("comma"===e&&g(h))T=[{value:h.length>0?h.join(",")||null:void 0}];else if(g(f))T=f;else{var x=Object.keys(h);T=a?x.sort(a):x}for(var N=0;N<T.length;++N){var C=T[N],D="object"==typeof C&&void 0!==C.value?C.value:h[C];if(!i||null!==D){var F=g(h)?"function"==typeof e?e(n,C):n:n+(c?"."+C:"["+C+"]");O(k,t(D,F,e,o,i,u,f,a,c,l,s,v,p,y))}}return k},k=Object.prototype.hasOwnProperty,x=Array.isArray,N={allowDots:!1,allowPrototypes:!1,arrayLimit:20,charset:"utf-8",charsetSentinel:!1,comma:!1,decoder:b.decode,delimiter:"&",depth:5,ignoreQueryPrefix:!1,interpretNumericEntities:!1,parameterLimit:1e3,parseArrays:!0,plainObjects:!1,strictNullHandling:!1},C=function(t){return t.replace(/&#(\d+);/g,function(t,r){return String.fromCharCode(parseInt(r,10))})},D=function(t,r){return t&&"string"==typeof t&&r.comma&&t.indexOf(",")>-1?t.split(","):t},F=function(t,r,n,e){if(t){var o=n.allowDots?t.replace(/\.([^.[]+)/g,"[$1]"):t,i=/(\[[^[\]]*])/g,u=n.depth>0&&/(\[[^[\]]*])/.exec(o),f=u?o.slice(0,u.index):o,a=[];if(f){if(!n.plainObjects&&k.call(Object.prototype,f)&&!n.allowPrototypes)return;a.push(f)}for(var c=0;n.depth>0&&null!==(u=i.exec(o))&&c<n.depth;){if(c+=1,!n.plainObjects&&k.call(Object.prototype,u[1].slice(1,-1))&&!n.allowPrototypes)return;a.push(u[1])}return u&&a.push("["+o.slice(u.index)+"]"),function(t,r,n,e){for(var o=e?r:D(r,n),i=t.length-1;i>=0;--i){var u,f=t[i];if("[]"===f&&n.parseArrays)u=[].concat(o);else{u=n.plainObjects?Object.create(null):{};var a="["===f.charAt(0)&&"]"===f.charAt(f.length-1)?f.slice(1,-1):f,c=parseInt(a,10);n.parseArrays||""!==a?!isNaN(c)&&f!==a&&String(c)===a&&c>=0&&n.parseArrays&&c<=n.arrayLimit?(u=[])[c]=o:"__proto__"!==a&&(u[a]=o):u={0:o}}o=u}return o}(a,r,n,e)}},$=function(t,r){var n=function(t){if(!t)return N;if(null!=t.decoder&&"function"!=typeof t.decoder)throw new TypeError("Decoder has to be a function.");if(void 0!==t.charset&&"utf-8"!==t.charset&&"iso-8859-1"!==t.charset)throw new TypeError("The charset option must be either utf-8, iso-8859-1, or undefined");return{allowDots:void 0===t.allowDots?N.allowDots:!!t.allowDots,allowPrototypes:"boolean"==typeof t.allowPrototypes?t.allowPrototypes:N.allowPrototypes,arrayLimit:"number"==typeof t.arrayLimit?t.arrayLimit:N.arrayLimit,charset:void 0===t.charset?N.charset:t.charset,charsetSentinel:"boolean"==typeof t.charsetSentinel?t.charsetSentinel:N.charsetSentinel,comma:"boolean"==typeof t.comma?t.comma:N.comma,decoder:"function"==typeof t.decoder?t.decoder:N.decoder,delimiter:"string"==typeof t.delimiter||b.isRegExp(t.delimiter)?t.delimiter:N.delimiter,depth:"number"==typeof t.depth||!1===t.depth?+t.depth:N.depth,ignoreQueryPrefix:!0===t.ignoreQueryPrefix,interpretNumericEntities:"boolean"==typeof t.interpretNumericEntities?t.interpretNumericEntities:N.interpretNumericEntities,parameterLimit:"number"==typeof t.parameterLimit?t.parameterLimit:N.parameterLimit,parseArrays:!1!==t.parseArrays,plainObjects:"boolean"==typeof t.plainObjects?t.plainObjects:N.plainObjects,strictNullHandling:"boolean"==typeof t.strictNullHandling?t.strictNullHandling:N.strictNullHandling}}(r);if(""===t||null==t)return n.plainObjects?Object.create(null):{};for(var e="string"==typeof t?function(t,r){var n,e={},o=(r.ignoreQueryPrefix?t.replace(/^\?/,""):t).split(r.delimiter,Infinity===r.parameterLimit?void 0:r.parameterLimit),i=-1,u=r.charset;if(r.charsetSentinel)for(n=0;n<o.length;++n)0===o[n].indexOf("utf8=")&&("utf8=%E2%9C%93"===o[n]?u="utf-8":"utf8=%26%2310003%3B"===o[n]&&(u="iso-8859-1"),i=n,n=o.length);for(n=0;n<o.length;++n)if(n!==i){var f,a,c=o[n],l=c.indexOf("]="),s=-1===l?c.indexOf("="):l+1;-1===s?(f=r.decoder(c,N.decoder,u,"key"),a=r.strictNullHandling?null:""):(f=r.decoder(c.slice(0,s),N.decoder,u,"key"),a=b.maybeMap(D(c.slice(s+1),r),function(t){return r.decoder(t,N.decoder,u,"value")})),a&&r.interpretNumericEntities&&"iso-8859-1"===u&&(a=C(a)),c.indexOf("[]=")>-1&&(a=x(a)?[a]:a),e[f]=k.call(e,f)?b.combine(e[f],a):a}return e}(t,n):t,o=n.plainObjects?Object.create(null):{},i=Object.keys(e),u=0;u<i.length;++u){var f=i[u],a=F(f,e[f],n,"string"==typeof t);o=b.merge(o,a,n)}return b.compact(o)},A=/*#__PURE__*/function(){function t(t,r,n){var e,o;this.name=t,this.definition=r,this.bindings=null!=(e=r.bindings)?e:{},this.wheres=null!=(o=r.wheres)?o:{},this.config=n}var n=t.prototype;return n.matchesUrl=function(t){var r=this;if(!this.definition.methods.includes("GET"))return!1;var n=this.template.replace(/(\/?){([^}?]*)(\??)}/g,function(t,n,e,o){var i,u="(?<"+e+">"+((null==(i=r.wheres[e])?void 0:i.replace(/(^\^)|(\$$)/g,""))||"[^/?]+")+")";return o?"("+n+u+")?":""+n+u}).replace(/^\w+:\/\//,""),e=t.replace(/^\w+:\/\//,"").split("?"),o=e[0],i=e[1],u=new RegExp("^"+n+"/?$").exec(o);return!!u&&{params:u.groups,query:$(i)}},n.compile=function(t){var r=this,n=this.parameterSegments;return n.length?this.template.replace(/{([^}?]+)(\??)}/g,function(e,o,i){var u,f,a;if(!i&&[null,void 0].includes(t[o]))throw new Error("Ziggy error: '"+o+"' parameter is required for route '"+r.name+"'.");if(n[n.length-1].name===o&&".*"===r.wheres[o])return encodeURIComponent(null!=(a=t[o])?a:"").replace(/%2F/g,"/");if(r.wheres[o]&&!new RegExp("^"+(i?"("+r.wheres[o]+")?":r.wheres[o])+"$").test(null!=(u=t[o])?u:""))throw new Error("Ziggy error: '"+o+"' parameter does not match required format '"+r.wheres[o]+"' for route '"+r.name+"'.");return encodeURIComponent(null!=(f=t[o])?f:"")}).replace(/\/+$/,""):this.template},r(t,[{key:"template",get:function(){return((this.config.absolute?this.definition.domain?""+this.config.url.match(/^\w+:\/\//)[0]+this.definition.domain+(this.config.port?":"+this.config.port:""):this.config.url:"")+"/"+this.definition.uri).replace(/\/+$/,"")}},{key:"parameterSegments",get:function(){var t,r;return null!=(t=null==(r=this.template.match(/{[^}?]+\??}/g))?void 0:r.map(function(t){return{name:t.replace(/{|\??}/g,""),required:!/\?}$/.test(t)}}))?t:[]}}]),t}(),P=/*#__PURE__*/function(t){var e,i;function u(r,e,o,i){var u;if(void 0===o&&(o=!0),(u=t.call(this)||this).t=null!=i?i:"undefined"!=typeof Ziggy?Ziggy:null==globalThis?void 0:globalThis.Ziggy,u.t=n({},u.t,{absolute:o}),r){if(!u.t.routes[r])throw new Error("Ziggy error: route '"+r+"' is not in the route list.");u.i=new A(r,u.t.routes[r],u.t),u.u=u.l(e)}return u}i=t,(e=u).prototype=Object.create(i.prototype),e.prototype.constructor=e,o(e,i);var f=u.prototype;return f.toString=function(){var t=this,r=Object.keys(this.u).filter(function(r){return!t.i.parameterSegments.some(function(t){return t.name===r})}).filter(function(t){return"_query"!==t}).reduce(function(r,e){var o;return n({},r,((o={})[e]=t.u[e],o))},{});return this.i.compile(this.u)+function(t,r){var n,e=t,o=function(t){if(!t)return S;if(null!=t.encoder&&"function"!=typeof t.encoder)throw new TypeError("Encoder has to be a function.");var r=t.charset||S.charset;if(void 0!==t.charset&&"utf-8"!==t.charset&&"iso-8859-1"!==t.charset)throw new TypeError("The charset option must be either utf-8, iso-8859-1, or undefined");var n=s.default;if(void 0!==t.format){if(!h.call(s.formatters,t.format))throw new TypeError("Unknown format option provided.");n=t.format}var e=s.formatters[n],o=S.filter;return("function"==typeof t.filter||g(t.filter))&&(o=t.filter),{addQueryPrefix:"boolean"==typeof t.addQueryPrefix?t.addQueryPrefix:S.addQueryPrefix,allowDots:void 0===t.allowDots?S.allowDots:!!t.allowDots,charset:r,charsetSentinel:"boolean"==typeof t.charsetSentinel?t.charsetSentinel:S.charsetSentinel,delimiter:void 0===t.delimiter?S.delimiter:t.delimiter,encode:"boolean"==typeof t.encode?t.encode:S.encode,encoder:"function"==typeof t.encoder?t.encoder:S.encoder,encodeValuesOnly:"boolean"==typeof t.encodeValuesOnly?t.encodeValuesOnly:S.encodeValuesOnly,filter:o,format:n,formatter:e,serializeDate:"function"==typeof t.serializeDate?t.serializeDate:S.serializeDate,skipNulls:"boolean"==typeof t.skipNulls?t.skipNulls:S.skipNulls,sort:"function"==typeof t.sort?t.sort:null,strictNullHandling:"boolean"==typeof t.strictNullHandling?t.strictNullHandling:S.strictNullHandling}}(r);"function"==typeof o.filter?e=(0,o.filter)("",e):g(o.filter)&&(n=o.filter);var i=[];if("object"!=typeof e||null===e)return"";var u=m[r&&r.arrayFormat in m?r.arrayFormat:r&&"indices"in r?r.indices?"indices":"repeat":"indices"];n||(n=Object.keys(e)),o.sort&&n.sort(o.sort);for(var f=0;f<n.length;++f){var a=n[f];o.skipNulls&&null===e[a]||O(i,T(e[a],a,u,o.strictNullHandling,o.skipNulls,o.encode?o.encoder:null,o.filter,o.sort,o.allowDots,o.serializeDate,o.format,o.formatter,o.encodeValuesOnly,o.charset))}var c=i.join(o.delimiter),l=!0===o.addQueryPrefix?"?":"";return o.charsetSentinel&&(l+="iso-8859-1"===o.charset?"utf8=%26%2310003%3B&":"utf8=%E2%9C%93&"),c.length>0?l+c:""}(n({},r,this.u._query),{addQueryPrefix:!0,arrayFormat:"indices",encodeValuesOnly:!0,skipNulls:!0,encoder:function(t,r){return"boolean"==typeof t?Number(t):r(t)}})},f.v=function(t){var r=this;t?this.t.absolute&&t.startsWith("/")&&(t=this.p().host+t):t=this.h();var e={},o=Object.entries(this.t.routes).find(function(n){return e=new A(n[0],n[1],r.t).matchesUrl(t)})||[void 0,void 0];return n({name:o[0]},e,{route:o[1]})},f.h=function(){var t=this.p(),r=t.pathname,n=t.search;return(this.t.absolute?t.host+r:r.replace(this.t.url.replace(/^\w*:\/\/[^/]+/,""),"").replace(/^\/+/,"/"))+n},f.current=function(t,r){var e=this.v(),o=e.name,i=e.params,u=e.query,f=e.route;if(!t)return o;var a=new RegExp("^"+t.replace(/\./g,"\\.").replace(/\*/g,".*")+"$").test(o);if([null,void 0].includes(r)||!a)return a;var c=new A(o,f,this.t);r=this.l(r,c);var l=n({},i,u);return!(!Object.values(r).every(function(t){return!t})||Object.values(l).some(function(t){return void 0!==t}))||Object.entries(r).every(function(t){return l[t[0]]==t[1]})},f.p=function(){var t,r,n,e,o,i,u="undefined"!=typeof window?window.location:{},f=u.host,a=u.pathname,c=u.search;return{host:null!=(t=null==(r=this.t.location)?void 0:r.host)?t:void 0===f?"":f,pathname:null!=(n=null==(e=this.t.location)?void 0:e.pathname)?n:void 0===a?"":a,search:null!=(o=null==(i=this.t.location)?void 0:i.search)?o:void 0===c?"":c}},f.has=function(t){return Object.keys(this.t.routes).includes(t)},f.l=function(t,r){var e=this;void 0===t&&(t={}),void 0===r&&(r=this.i),t=["string","number"].includes(typeof t)?[t]:t;var o=r.parameterSegments.filter(function(t){return!e.t.defaults[t.name]});if(Array.isArray(t))t=t.reduce(function(t,r,e){var i,u;return n({},t,o[e]?((i={})[o[e].name]=r,i):"object"==typeof r?r:((u={})[r]="",u))},{});else if(1===o.length&&!t[o[0].name]&&(t.hasOwnProperty(Object.values(r.bindings)[0])||t.hasOwnProperty("id"))){var i;(i={})[o[0].name]=t,t=i}return n({},this.m(r),this.g(t,r))},f.m=function(t){var r=this;return t.parameterSegments.filter(function(t){return r.t.defaults[t.name]}).reduce(function(t,e,o){var i,u=e.name;return n({},t,((i={})[u]=r.t.defaults[u],i))},{})},f.g=function(t,r){var e=r.bindings,o=r.parameterSegments;return Object.entries(t).reduce(function(t,r){var i,u,f=r[0],a=r[1];if(!a||"object"!=typeof a||Array.isArray(a)||!o.some(function(t){return t.name===f}))return n({},t,((u={})[f]=a,u));if(!a.hasOwnProperty(e[f])){if(!a.hasOwnProperty("id"))throw new Error("Ziggy error: object passed as '"+f+"' parameter is missing route model binding key '"+e[f]+"'.");e[f]="id"}return n({},t,((i={})[f]=a[e[f]],i))},{})},f.valueOf=function(){return this.toString()},f.check=function(t){return this.has(t)},r(u,[{key:"params",get:function(){var t=this.v();return n({},t.params,t.query)}}]),u}(/*#__PURE__*/f(String));return function(t,r,n,e){var o=new P(t,r,n,e);return t?o.toString():o}});
+
+</script><script src="/assets/js/custom/helpers.js?id=d557f07dce90932f3ae5740f484ccc5a"></script>
+<script src="/assets/js/custom/custom.js?id=48b03c63cc1c1e5632e9c558884dea86"></script>
+<script src="/assets/js/vcards/vcard-view.js?id=1ce0241c60c8d18ac5b5de96cad832f7"></script>
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
